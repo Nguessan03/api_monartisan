@@ -46,7 +46,7 @@ $sql = "INSERT INTO contact (telephone, email, message) VAlUES ('$telephone', '$
 
 if($conn->exec($sql)){
         echo "succès";
-        echo $telephone, $email, $message;
+
 }else{
         echo "echec";
 }

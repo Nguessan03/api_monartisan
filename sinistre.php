@@ -46,7 +46,6 @@ $sql = "INSERT INTO sinistre (assurance, numero, nomprenom, email, contact1, con
 
 if($conn->exec($sql)){
         echo "succès";
-        echo $assurance, $numero, $nomprenom, $email, $contact1, $contact2, $lieu, $intervention, $date, $details;
 }else{
         echo "echec";
 }
